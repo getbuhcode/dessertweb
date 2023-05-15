@@ -1,0 +1,249 @@
+/* default style for text */
+* {
+  margin: 0;
+  font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', 'serif';
+  color: #333;
+}
+
+/* style for navbar */
+.navbar {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  font-size: 30px;
+  color: #f29f7f;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  font-size: 20px;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f29f7f;
+}
+
+/* style for home */ 
+.home img {
+  padding: 30px;
+  width: 600px;
+  height: 400px;
+}
+.home h2 {
+  font-size: 30px;
+}
+.home p {
+  padding: 20px;
+  margin: 0 auto;
+  width: 800px;
+  text-align: justify;
+}
+
+/* style for menu */
+.menu {
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+}
+.menu .menubar button {
+  background: #fff;
+  color: #f29f7f;
+  border: 0;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.menu .menubar button:hover {
+  text-decoration: underline;
+  color: #ecbca9;
+}
+
+/* style for cakes */ 
+.cakes img {
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+}
+.cakes button {
+  background: #f29f7f;
+  border: 0;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* style for icecream */
+.icecream img {
+  padding: 20px;
+  width: 280px;
+  height: 200px;
+}
+.icecream button {
+  background: #f29f7f;
+  border: 0;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* style for order */
+.order .emptyorder {
+  margin: 50px;
+  align-items: center;
+}
+.order h2 {
+  margin-top: 50px;
+  align-items: center;
+}
+.order .confirmButton {
+  margin: 20px;
+  padding: 10px;
+  background: #f29f7f;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.order .totalPrice {
+  font-size: 20px;
+}
+.order-items {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #fafafa;
+}
+.order-items h3 {
+  width: 200px;
+}
+.order-items button{
+  background: #f29f7f;
+  border: 0;
+  border-radius: 8px;
+  padding: 5px;
+  width: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.order-items .qtyButtons{
+  margin: 10px;
+}
+.order-items .qtyButton{
+  background: #fff;
+  border: 0;
+  font-size: 18px;
+}
+.order-items .removeButton {
+  margin: 50px;
+}
+.order-items .removeButton button{
+  margin-left: 20px;
+  width: 80px;
+}
+
+/* login style */
+.login {
+  max-width: 60%;
+  border: 3px solid #fcd1ae;
+  border-radius: 5px;
+  margin: 60px auto;
+}
+.login-form {
+  margin: 80px 150px;
+  text-align: center;
+}
+.login-form h2{
+  color: #f29f7f;
+  margin: 20px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+.login-form label{
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  margin: 0px 28% 10px 28%;
+}
+.login-form input{
+  max-width: 100%;
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  /* border-color: #333; */
+  border-radius: 5px;
+  border-width: 1px;
+}
+.login-form input:focus{
+  border-color: #3ab3e7;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.login-form button{
+  margin-top: 20px;
+  max-width: 100%;
+  background: #f29f7f;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  padding: 8px 85px;
+}
+.login-form span{
+  display: block;
+  margin: 30px;
+}
+.login-form a{
+  font-style: italic;
+}
+
+/* style for sign up */
+.signup {
+  max-width: 60%;
+  border: 3px solid #fcd1ae;
+  border-radius: 5px;
+  margin: 60px auto;
+}
+.signup-form{
+  text-align: center;
+}
+.signup-form h2{
+  margin: 30px;
+  color: #f29f7f;
+  font-style: italic;
+}
+.signup-form p{
+  margin: 20px 20px 30px 20px;
+}
+.signup-form div{
+  display: inline-block;
+}
+.signup-form label{
+  display: block;
+  margin: 30px;
+}
+.signup-form input{
+  margin-bottom: 26px;
+}
+.signup-form button{
+  margin: 30px;
+  background: #f29f7f;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  padding: 8px 50px;
+}
